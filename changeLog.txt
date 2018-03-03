@@ -1,0 +1,29 @@
+buckup_1: only board printing
+buckup_2: players and circles added
+buckup_3: changed "test.asm" to "main.asm".
+	  added selecting panel on click and painting it
+	  added nextTurn procedure
+buckup_4: mark possible moves and more base procedures
+buckup_5: mark two sides, deselect and exit on esc
+buckup_6: movement and eating
+buckup_7: Double eating, still have problems (see TODO)
+buckup_8: Fixed double eating bugs.
+buckup_9: added two base functions for AI, started menu.
+buckup_10: Menu finished (enter for selecting)
+	   Added the function getDefensiveScore for the AI, and finished other AI procedures.
+buckup_11: finished the getScore AI proc, and the getOffensiveScore proc, together with helping procedures.
+buckup_12: Fixed moving and eating bugs, started AITurn
+buckup_13: AI is moving
+buckup_14: AI is eating
+buckup_15: PBEMoveToBlockEating: can eat as respond, and move others to block eating
+buckup_16: now can move away by it self
+buckup_17: game over recognition and screen
+buckup_18: fixed offensiveScore bug
+buckup_19: re-wrote the 'getBeingEatenTimes' proc from scratch.
+	   fixed getDScore by adding the moving simulation
+	   fixed 'IsExposedForEatingSide' by putting in bx the 'to' panel adress before the end
+buckup_20: final
+buckup_21: fixed moving to block being eaten
+buckup_22: fixed double eating still selected at end bug
+buckup_23: fixed double eating of nothing
+buckup_24: now asking if the player is sure he wants to exit in game-mode when clicks Esc

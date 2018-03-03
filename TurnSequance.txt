@@ -1,0 +1,15 @@
+To divide the turn procedure to three phazes:
+	1. waiting for selection, and marking it
+	2. checking for possible places to go to, and marking them
+		2.1 checking for eating possibilities
+	3. wait for action: if clicked on possiblemovement panel, move and continue to step for. otherwise, unmark all and return to step 1.
+	4. action - if regular movement, move, unmark and next turn. if eating, eat, move, and continue to step 5.
+	5. recursiveEating: check for another eating possibility. if exists, mark the place. if not, pass to next turn.
+			    if eaten, call this procedure again.	
+
+helping global variables:
+	a. selected panel
+	b. two marked panels
+helping procedures:
+	a. GetMouseAction - Done
+	b. deselect - making the 'a' variable -1, and the 'b' variables -1
